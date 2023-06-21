@@ -1,0 +1,89 @@
+@media (max-width: 767px) {
+    /* мобильная версия сайта*/
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .br {
+        display: none;
+    }
+    .top {
+        height: 735px;
+        background-image: url(img/mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        &_content {
+            padding-left: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        &_title {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &_text {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &_button {
+            margin-left: 71px;
+            margin-right: 71px;
+            margin-top: 33px;
+        }
+    }
+    .text-bold {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .nav-game {
+        min-height: 1221px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+        &_item {
+            grid-column: 1 / -1;
+            height: 300px;
+        }
+    }
+    .game_1 {
+        margin-top: 51px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .game_title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .game_text {
+        padding-left: 25px;
+        padding-right: 25px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .picture_img {
+        max-width: 350px;
+        margin-bottom: 85px;
+    }
+    .top_button_1 {
+        margin-left: 71px;
+        margin-right: 71px;
+    }
+}

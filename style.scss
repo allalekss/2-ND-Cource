@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+.body {
+    padding-left: 120px;
+}
+.center {
+    padding-right: calc(50% - 720px);
+    padding-left: calc(50% - 720px);
+  }
+
+.top {
+    height: 1024px;
+    max-width: 1440px;
+    background-image: url(img/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &_content {
+        padding-left: 120px;
+    }
+    &_title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        padding-top: 217px;
+        padding-bottom: 32px;
+    }
+    &_text {
+        max-width: 481px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #ffffffd9;
+        /* display: flex; */
+        /* align-items: center; */
+        margin-bottom: 44px;
+    }
+
+    &_button {
+        width: 234.06px;
+        height: 48.6px;
+        left: 120px;
+        top: 482.11px;
+        background: #9C0332;
+        border-radius: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s;
+        &:hover {
+            color: #9C0332;
+            background-color: #FFFFFF;
+        }
+    }
+} 
+.text-bold {
+    font-weight: 900;
+    color: #FFFFFF;
+    transition:  0.3s;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.nav-game {
+    min-height: 556px;
+    background: url(img/Rectangle\ 5.jpg);
+    padding: 128px 120px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12,1fr);
+    &__item {
+        box-shadow: 0 0 10px #ccc;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-bottom: 32px;
+        padding-left: 32px;
+        transition:all 0.3s;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px #ccc;
+            text-decoration: underline;
+        }
+    }
+    &__item_1 {
+        grid-column: span 4;
+        height: 300px;
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/Rectangle\ 6.jpg);
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__item_2 {
+        grid-column: span 4;
+        height: 300px;
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/Rectangle\ 7.jpg);
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__item_3 {
+        grid-column: span 4;
+        height: 300px;
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/Rectangle\ 8.jpg);
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    &__link {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF; 
+    }
+}
+/* section game season*/    
+.seasons {
+    background-image: url(img/backgr3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #000915;
+}
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1440px;
+    height: 800px;
+    &_1 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 32px;
+        color: #FFFFFF;
+    }
+    ._title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+    }
+    &_text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+}
+.top_button_1 {
+    width: 234.06px;
+    height: 48.6px;
+    left: 120px;
+    top: 482.11px;
+    background: #9C0332;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    &:hover {
+        color: #9C0332;
+        background-color: #FFFFFF;
+    }
+}
+.picture{
+    display: flex;
+    gap: 135px;
+}
+@import 'mobile';
