@@ -74,8 +74,8 @@ function chekoutNumber(j) {
 console.log(`${j} в кубе равняется`, `${chekoutNumber(j)}`);
 
 //задача 7
-let r1 = Number(prompt(`Введите радиус первой окружности`));
-let r2 = Number(prompt(`Введите радиус второй окружности`));
+let r1 = Number(prompt('Введите радиус первой окружности'));
+let r2 = Number(prompt('Введите радиус второй окружности'));
 
 function takeA() {
     return (Math.PI * this.radius ** 2);
@@ -110,5 +110,5 @@ function gameOne() {
     else if (mN >= 3 && mN <= 5 ) {return alert('Это весна');}
     else if (mN >= 6 && mN <= 8 ) {return alert('Это лето');}
     else if (mN >= 9 && mN <= 11 ) {return alert('Это осень');}
-    else if (isNaN(mN) === true ) {return alert('Вы что то попутали, такого нет!)');}   
+    else if (mN >=13 || mN <=0 ) {return alert('Вы что то попутали, такого нет!)');}   
 }
