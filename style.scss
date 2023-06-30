@@ -170,8 +170,8 @@ a {
         align-items: center;
         color: #FFFFFF;
     }
-
 }
+
 .top_button_1 {
     width: 234.06px;
     height: 48.6px;
@@ -197,5 +197,23 @@ a {
 .picture{
     display: flex;
     gap: 135px;
+    flex-wrap: wrap;
 }
+
+.game_two {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    height: 800px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 150px;
+}
+.picture_2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 @import 'mobile';
