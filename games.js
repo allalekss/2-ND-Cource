@@ -16,9 +16,9 @@ function gameTwo () {
     alert(newFruits);
     let oneFruits = prompt('Чему равнялся первый элемент массива?');
     let twoFruits = prompt('Чему равнялся последний элемент массива?');
-    if (newFruits[0].toLowerCase() === oneFruits.toLowerCase() && newFruits[6].toLowerCase() === twoFruits.toLowerCase()) {
+    if (newFruits[0].toLowerCase() === oneFruits.toLowerCase() && newFruits[newFruits.length-1].toLowerCase() === twoFruits.toLowerCase()) {
         alert(' Поздравляю!Ты угадал все фрукты!')
-    } else if(newFruits[0].toLowerCase() === oneFruits.toLowerCase() || newFruits[6].toLowerCase() === twoFruits.toLowerCase()) {
+    } else if(newFruits[0].toLowerCase() === oneFruits.toLowerCase() || newFruits[newFruits.length-1].toLowerCase() === twoFruits.toLowerCase()) {
         alert('Ты был близок к победе!')
     } else {
         alert('Ты не угадал ни одного фрукта')
